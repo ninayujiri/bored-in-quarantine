@@ -1,0 +1,21 @@
+.top,
+.middle {
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+  transition: opacity 0.5s ease;
+}
+
+.middle,
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+.full-area {
+  grid-area: 1/1;
+}
