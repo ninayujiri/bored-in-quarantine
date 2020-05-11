@@ -13,6 +13,10 @@ export const Layout = styled.section`
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  
+  @media only screen and (max-width: 768px) {
+    padding: 5vh 10vw;
+  }
 `;
 
 export const TitleContainer = styled.div`

@@ -13,6 +13,10 @@ export const Button = styled.button`
   margin-top: 1em;
   font-size: 16px;
 
+  @media only screen and (max-width: 768px) {
+     width: 100%;
+  }
+
   &:hover {
     color: #fafafa;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(65%, #333), color-stop(1, #333));
