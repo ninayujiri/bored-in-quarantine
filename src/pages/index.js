@@ -11,7 +11,7 @@ export default () => {
   const [text, setText] = useState();
 
   const getSoloActivity = () => {
-    fetch(`http://www.boredapi.com/api/activity?participants=1&minaccessibility=0&maxaccessibility=0.1`)
+    fetch(`https://www.boredapi.com/api/activity?participants=1&minaccessibility=0&maxaccessibility=0.1`)
         .then(response => {
           return response.json()
         })

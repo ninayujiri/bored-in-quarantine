@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Layout = styled.body`
+export const Layout = styled.section`
   background-color: #fafafa;
   color: #333;
   font-family: 'Helvetica Neue', sans-serif;
