@@ -7,14 +7,14 @@ export const Layout = styled.section`
   font-weight: bold;
   font-size: 24px;
   line-height: 1.5;
-  padding: 6vh 15vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  padding: 15vh 10vw;
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) {
     padding: 10vh 10vw;
   }
 `;
