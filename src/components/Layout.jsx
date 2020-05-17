@@ -7,7 +7,7 @@ export const Layout = styled.section`
   font-weight: bold;
   font-size: 24px;
   line-height: 1.5;
-  padding: 5vh 15vw;
+  padding: 6vh 15vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,6 +19,11 @@ export const Layout = styled.section`
   }
 `;
 
-export const TitleContainer = styled.div`
+export const TitleContainer = styled.button`
   cursor: pointer;
+  border: none;
+  background: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
 `;
