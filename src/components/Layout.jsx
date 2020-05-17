@@ -15,7 +15,7 @@ export const Layout = styled.section`
   height: 100vh;
   
   @media only screen and (max-width: 768px) {
-    padding: 5vh 10vw;
+    padding: 10vh 10vw;
   }
 `;
 

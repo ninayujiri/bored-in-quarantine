@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-export const Button = styled.button`
+export const ButtonStyle = css`
   border: 2px solid #333;
   color: #333;
   background-color: transparent;
@@ -24,3 +24,13 @@ export const Button = styled.button`
     cursor: pointer;
   }
 `;
+
+export const LinkStyle = css`
+   color: #333;
+   text-decoration: none;
+`;
+
+export const Button = styled.button`
+ ${ ButtonStyle }
+`;
+

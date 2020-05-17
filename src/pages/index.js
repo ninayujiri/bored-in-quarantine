@@ -26,7 +26,7 @@ export default () => {
   return (
       <Layout>
         <div className="top grid">
-          <TitleContainer onClick={() => setText(null)}>
+          <TitleContainer onClick={ () => setText(null) }>
             <h1 className="title full-area">Bored in Quarantine?</h1>
           </TitleContainer>
         </div>
