@@ -12,8 +12,8 @@ export const Layout = styled.section`
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  padding: 15vh 10vw;
-  
+  padding: 7vh 10vw 15vh;
+
   @media only screen and (min-width: 768px) {
     padding: 10vh 10vw;
   }
